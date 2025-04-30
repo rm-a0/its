@@ -1,8 +1,7 @@
 module.exports = {
   e2e: {
-    setupNodeEvents(on, config) {
-      // Implement node event listeners here
-    },
+    setupNodeEvents(on, config) { },
+    supportFile: false,
     testIsolation: true,
     video: false,
     screenshotOnRunFailure: false,
